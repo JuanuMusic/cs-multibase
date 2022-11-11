@@ -22,6 +22,7 @@ namespace Multiformats.Base
         Base64,
         Base64Padded,
         Base64Url,
-        Base64UrlPadded
+        Base64UrlPadded,
+        CIDv1
     }
 }

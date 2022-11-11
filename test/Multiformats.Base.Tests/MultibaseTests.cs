@@ -88,6 +88,7 @@ namespace Multiformats.Base.Tests
         [InlineData(MultibaseEncoding.Base64Padded)]
         [InlineData(MultibaseEncoding.Base64Url)]
         [InlineData(MultibaseEncoding.Base64UrlPadded)]
+        [InlineData(MultibaseEncoding.CIDv1)]
         public void TestRoundTrip(MultibaseEncoding encoding)
         {
             var rand = new Random(Environment.TickCount);
@@ -121,6 +122,7 @@ namespace Multiformats.Base.Tests
         [InlineData(MultibaseEncoding.Base64Padded)]
         [InlineData(MultibaseEncoding.Base64Url)]
         [InlineData(MultibaseEncoding.Base64UrlPadded)]
+        [InlineData(MultibaseEncoding.CIDv1)]
         public void TestRoundTripRaw(MultibaseEncoding encoding)
         {
             var rand = new Random(Environment.TickCount);
